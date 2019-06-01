@@ -5,8 +5,12 @@ import java.net.UnknownHostException;
 
 public class HostInfoProvider {
 
-    public InetAddress getHostIp(String hostName) throws UnknownHostException
-    {
-        return InetAddress.getByName(hostName.toLowerCase());
+    public String getHostIp() throws UnknownHostException {
+        return InetAddress.getLocalHost().getHostAddress();
+    }
+
+    public String getHostName() throws UnknownHostException {
+        return InetAddress.getLocalHost().getHostName();
     }
 }
+
