@@ -3,3 +3,4 @@
   2. pangram checker
   3. PalindromeChecker
   4. CheckPrimeNumber
+  5. StringReverse
