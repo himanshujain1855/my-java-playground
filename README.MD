@@ -5,3 +5,4 @@
   4. CheckPrimeNumber
   5. StringReverse
   6. DigitCounter
+  7. CountNumberOfWords (A legend Word Counter Must try it.)
