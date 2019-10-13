@@ -4,3 +4,4 @@
   3. PalindromeChecker
   4. CheckPrimeNumber
   5. StringReverse
+  6. DigitCounter
