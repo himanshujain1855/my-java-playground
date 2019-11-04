@@ -6,3 +6,4 @@
   5. StringReverse
   6. DigitCounter
   7. CountNumberOfWords (A legend Word Counter Must try it.)
+  8. Balanced Parenthesis checker.
