@@ -7,3 +7,4 @@
   6. DigitCounter
   7. CountNumberOfWords (A legend Word Counter Must try it.)
   8. Balanced Parenthesis checker.
+  9. Recursive Program to remove duplicate character from a given string!
