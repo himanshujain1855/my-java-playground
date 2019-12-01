@@ -9,26 +9,23 @@ import java.util.Scanner;
 
 public class CheckPrimeNumber {
 
-	public static boolean isPrime(int num)
-    	{
-        int i;
-        boolean b=false;
-        for(i=2;i<num;i++)
-        {
-            if(num%i==0)
-            break;
-        }
+	static boolean isPrime(int number){
+		int i=2;
+
+		for(i=2;i<number;i++){
+			if(number%i==0) break;
+		}
+
+		if(i==number) return true;
+		else return false;
+
+	}
 
         /**We need to check if loop is ended or broken due to inner if condition false
          * Hence if i==number then loop is ended
          * else loop is broken by inner if condition false
          */
 
-        if(i==num)
-           return !b;
-        else
-            return b;
-    	}
 
     public static void main(String[] args) {
 
